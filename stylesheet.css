@@ -1,0 +1,21 @@
+body {
+  background-color: #EEFFFF;
+  }
+
+.box {
+  padding: 0.2em 0.5em;
+  background-color: #d6ebff;
+  box-shadow: 0px 0px 0px 10px #d6ebff;
+  border: dashed 2px white;
+  text-align: center;
+}
+
+.pictures {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
