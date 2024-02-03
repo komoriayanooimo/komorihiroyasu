@@ -123,6 +123,10 @@ a {
     text-align: center;
   }
 
+  .button2 {
+    position: relative;
+  }
+
   .submit-button {
     background-color: #f4dd64;
     display: inline-block;
@@ -135,7 +139,10 @@ a {
     margin-top: 20px;
     cursor: pointer;
     border: none;
-    margin-left: 670px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
   }
 
   .submit-button:hover {
@@ -154,3 +161,26 @@ a {
     margin-left: auto;
     margin-right: auto;
   }
+
+  @media (max-width: 800px) {
+    .map,
+    .contact {
+      width:500px;
+      margin-top: 45px;
+    }
+
+    .form-area dt,
+    .form-area dd {
+      width: 100%;
+    }
+    
+    .form-area dt 
+      padding-bottom: 0;
+    }
+    
+
+    .pictures {
+      display: flex;
+      justify-content: center;
+      margin-left: 20px;
+    }
